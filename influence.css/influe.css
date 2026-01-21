@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+
+/* Colors */
+/* Primary-color #E02C6D */
+/* Title-color #3A3A3A */
+/* Text-color #787885 */
+/* Box_shadow-color #787885 */
+
+
+/* Navbar styling */
+.navbar {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;  
+}
+
+
+.menu-pages ul {
+    display: flex;
+    gap: 34px;
+}
+
+.menu-items, .links a {
+    list-style: none;
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .menu-pages ul {
+        gap: 10px;
+        /* flex-direction: column; */
+    }
+}
